@@ -1,0 +1,30 @@
+{
+  "restaurant": "The Coffee Cafe",
+  "date": "2022-10-17",
+  "menu-sections": [
+     {"Hot Drinks": [
+      {"name":"Coffee", "cost":"$1"},
+      {"name":"Tea", "cost":"$1"},
+      {"name":"Latte", "cost":"$2"},
+      {"name":"Cappuccino", "cost":"$3"}
+     ]},
+     {"Cold Drinks": [
+      {"name":"Ice Coffee", "cost":"$2"},
+      {"name":"Ice Tea", "cost":"$2"},
+      {"name":"Smoothie", "cost":"$3"},
+      {"name":"Milk", "cost":"$1"}
+     ]},
+     {"Snacks Drinks": [
+      {"name":"Cookie", "cost":"$1"},
+      {"name":"Brownie", "cost":"$1.5"},
+      {"name":"Muffin", "cost":"$2"},
+      {"name":"Scone", "cost":"$2.5"}
+     ]},
+     {"Desserts": [
+      {"name":"Cake", "cost":"$3"},
+      {"name":"Ice cream", "cost":"$2"},
+      {"name":"Chocolate", "cost":"$2"},
+      {"name":"Jello", "cost":"$1"}
+     ]}
+   ]
+}

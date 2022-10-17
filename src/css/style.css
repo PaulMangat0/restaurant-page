@@ -1,0 +1,151 @@
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.flex {
+  display:flex;
+}
+
+/* NAVIGATION */
+
+.tab-nav{
+  height: 50px;
+  font-size: 2rem;
+  color:darkgoldenrod;
+  cursor: pointer;
+  overflow-y: visible;
+}
+
+.tab-nav--flex {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tab__home,
+.tab__menu,
+.tab__contact {
+  background-color: white;
+  text-align: center;
+  margin: auto 0;
+  width:200px;
+  padding-top: 10px;
+  height:60px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+
+.tab__home:hover,
+.tab__menu:hover,
+.tab__contact:hover {
+  border-color: chocolate;
+  color:chocolate;
+}
+
+/* HOME TAB */
+
+.hero {
+  background-image: url("../images/BG-coffee.jpg");
+  height: 200px;
+  text-align: center;
+  padding-block: 10%;
+}
+
+.hero-title {
+  font-size: 6rem;
+  text-decoration: underline solid black 1px;
+  background-color: rgba(255,255,255,0.3);
+  padding-block:1rem;
+}
+
+.hero-content {
+  margin-inline: 2rem;
+}
+
+
+/* MENU TAB */
+
+.Menu {
+  background-image: url('../images/BG-coffee.jpg');
+}
+
+.menu-header {
+  margin-bottom: 2rem;
+  padding-block:5rem;
+  background-color: azure;
+  border: 1px solid darkgray;
+}
+
+.menu-title {
+  font-size: 5rem;
+  text-decoration: underline solid black 1px;
+  text-align: center;
+}
+
+.menu-listings {
+  margin-inline: 1rem;
+}
+
+.menu-list-section {
+  background-color: rgba(255, 255, 255,0.8);
+  margin: 1rem;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.menu-list-section-title {
+  font-size: 3rem;
+  border-bottom: 1px solid lightgray;
+  margin-block: 0.5rem;
+}
+
+.menu-list-item {
+  font-size: 2rem;  
+}
+
+/* CONTACT */
+
+.Contact {
+  /* background-color: bisque; */
+}
+
+.contact-header {
+  margin-bottom: 2rem;
+  padding-block:5rem;
+  /* background-color: azure; */
+  background-color: bisque;
+  border: 1px solid darkgray;
+}
+
+.contact-title {
+  font-size: 5rem;
+  text-decoration: underline solid black 1px;
+  text-align: center;
+}
+
+.contact-location {
+  max-width: 300px;
+}
+
+.contact-info {
+  margin-top: 2rem;
+}
+
+.contact-info--flex {
+  justify-content: space-around;
+}
+
+ /* FOOTER */
+
+.footer {
+  display: block;
+  position: absolute;
+  bottom:1px;
+  left:20px;
+  /* margin-top: 3rem; */
+}
